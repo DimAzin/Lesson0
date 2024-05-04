@@ -117,8 +117,8 @@ l_len = 34
 I_inp = 43
 if l_len > I_inp:
     print()
-O = 9
-if O > 0:
+i_O = 9
+if i_O > 0:
     print()
 
 # lowercase (слово в нижнем регистре)
