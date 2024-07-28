@@ -1,4 +1,4 @@
-import requests 
+import requests
 
 r = requests.get('https://google.com/')
 print(r.text)
@@ -12,6 +12,11 @@ print(r)
 print(r.status_code)
 
 r = requests.get('https://api.github.com', auth=('user', 'pass'))
-
 print(r.status_code)
 print(r.headers['content-type'])
+
+r = requests.get('https://api.github.com/events')
+r.json()
+print(r.status_code)
+print(r.json())
+
