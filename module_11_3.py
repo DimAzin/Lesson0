@@ -1,8 +1,7 @@
 import inspect
 
 class Introspection:
-   # @staticmethod
-    def introspection_info(obj):
+      def introspection_info(obj):
         obj_type = str(type(obj))
         attributes = [attr for attr in dir(obj) if not callable(getattr(obj, attr)) and not attr.startswith("__")]
         methods = [method for method in dir(obj) if callable(getattr(obj, method))]
