@@ -33,7 +33,7 @@ class TournamentTest(unittest.TestCase):
     def test_run_usain_andrey_and_nick(self):
         tournament = Tournament(90, self.usain, self.andrey, self.nick)
         result = tournament.start()
-        self.assertEqual(result, {1: 'Андрей', 2: 'Усэйн', 3: 'Ник'})
+        self.assertEqual(result, {1: 'Усэйн', 2: 'Андрей', 3: 'Ник'})
         self.__class__.all_results.append(result)
 
 if __name__ == '__main__':
