@@ -1,0 +1,4 @@
+INFO: "test_run1" выполнен успешно
+INFO: "test_walk1" выполнен успешно
+WARNING: Неверный тип данных для объекта Runner
+WARNING: Неверная скорость для Runner
