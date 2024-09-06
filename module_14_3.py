@@ -10,7 +10,7 @@ import aiofiles
 import asyncio
 
 # Создаём экземпляр бота
-API_TOKEN = '7515340328:AAHuABhVxypqZh0wypTpJoyTFXpTIMCJJD8'
+API_TOKEN = 'хххххх'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
